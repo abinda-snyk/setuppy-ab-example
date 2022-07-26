@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
-    - name: Run Snyk to check for vulnerabilitiesss
+    - name: Run Snyk to check for vulnerabiliti
       uses: snyk/actions/python@master
       env:
         COMMAND: "python setup.py install"
